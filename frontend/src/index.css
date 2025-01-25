@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.copy-btn {
+    cursor: pointer;
+}
+
+.copy-btn:active {
+    stroke: azure;
+    transform: translateY(-2px);
+}
